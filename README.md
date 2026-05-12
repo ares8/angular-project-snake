@@ -8,10 +8,9 @@ Install game-server: `npm install - inside the game-server folder`
 
 Run game-server: `npm run start - inside the game-server folder`
 
-- you can optionally provide port the server should listen at with additional param
-  `post:{{port_number}}`
-  example:
-  `npm run start port:8080`
+- you can optionally provide port the server should listen at with additional param `post:{{port_number}}`
+
+  example: `npm run start port:8080`
 
 Run the main application: `npm install / ng serve`
 
