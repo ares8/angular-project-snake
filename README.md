@@ -8,7 +8,8 @@ Install game-server: `npm install - inside the game-server folder`
 
 Run game-server: `npm run start - inside the game-server folder`
 
-- you can optionally provide port the server should listen at with additional param `post:{{port_number}}`
+- you can optionally provide port the server should listen at with additional param
+  `post:{{port_number}}`
   example:
   `npm run start port:8080`
 
@@ -22,11 +23,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 When server is running then you have access to:
 
-- High scores page:
-  http://localhost:8080/snake
+- High scores page: http://localhost:8080/snake
 
-- **Api** documentation page  
-  http://localhost:8080/docs
+- **Api** documentation page: http://localhost:8080/docs
 
 ## Code scaffolding
 
