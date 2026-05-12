@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Login, UserToken } from '../models';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
-const url = 'https://scores.chrum.it/check-token';
+const url = 'http://localhost:8080/check-token';
 
 @Injectable({
   providedIn: 'root',

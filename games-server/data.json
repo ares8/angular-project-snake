@@ -1,0 +1,26 @@
+{
+  "tetris": [
+    { "name": "player", "score": 3 },
+    { "name": "user", "score": 1 },
+    { "name": "ola", "score": 3 },
+    { "name": "ala", "score": 2 },
+    { "name": "ela", "score": 1 },
+    { "name": "anna", "score": 1 }
+  ],
+  "snake": [
+    { "name": "player", "score": 3 },
+    { "name": "user", "score": 1 },
+    { "name": "ola", "score": 3 },
+    { "name": "ala", "score": 2 },
+    { "name": "ela", "score": 1 },
+    { "name": "anna", "score": 1 }
+  ],
+  "race": [
+    { "name": "player", "score": 3 },
+    { "name": "user", "score": 1 },
+    { "name": "ola", "score": 3 },
+    { "name": "ala", "score": 2 },
+    { "name": "ela", "score": 1 },
+    { "name": "anna", "score": 1 }
+  ]
+}

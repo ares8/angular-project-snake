@@ -2,9 +2,31 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
+# Running application
+
+Install game-server: `npm install - inside the game-server folder`
+
+Run game-server: `npm run start - inside the game-server folder`
+
+- you can optionally provide port the server should listen at with additional param `post:{{port_number}}`
+  example:
+  `npm run start port:8080`
+
+Run the main application: `npm install / ng serve`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Game server
+
+When server is running then you have access to:
+
+- High scores page:
+  http://localhost:8080/snake
+
+- **Api** documentation page  
+  http://localhost:8080/docs
 
 ## Code scaffolding
 

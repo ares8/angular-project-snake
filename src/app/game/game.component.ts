@@ -48,7 +48,7 @@ export class GameComponent implements OnDestroy {
   public gameInfo: GameInfo = {
     status: 'ready',
     time: '00:00:00',
-    points: 1000,
+    points: 0,
     colors: '',
   };
   public active: ActiveButtons = {
@@ -226,7 +226,7 @@ export class GameComponent implements OnDestroy {
       this.addScore();
     }
     this.addStatus('ready');
-    this.gameInfo.points = 1000;
+    this.gameInfo.points = 0;
     clearInterval(this.interval);
     this.seconds = 0;
     this.minutes = 0;

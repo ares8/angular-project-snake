@@ -3,8 +3,8 @@ import { GameHistory, Options, Score } from '../models';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { filter, map, tap, timer } from 'rxjs';
 
-const loadUrl = 'https://scores.chrum.it/scores/snake';
-const sendUrl = 'https://scores.chrum.it/scores';
+const loadUrl = 'http://localhost:8080/scores/snake';
+const sendUrl = 'http://localhost:8080/scores';
 
 @Injectable({
   providedIn: 'root',
